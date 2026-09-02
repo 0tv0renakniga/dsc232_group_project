@@ -1,0 +1,21 @@
+[project]
+name = "dsc232-group-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.4.4",
+    "fastparquet>=2025.12.0",
+    "gdown>=5.2.1",
+    "ipykernel>=7.1.0",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.8",
+    "plotly>=6.5.2",
+    "pyarrow>=23.0.1",
+    "pyspark>=4.1.1",
+    "ray[train]>=2.54.0",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "xgboost>=3.2.0",
+]
